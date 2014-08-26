@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-kgio"
-VERSION=2.8.0
+VERSION=2.9.2
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby kgio extension"
@@ -9,3 +9,8 @@ DESCRIPTION="kgio provides non-blocking I/O methods for Ruby without raising
 exceptions on EAGAIN and EINPROGRESS. It is intended for use with the Unicorn
 and Rainbows! Rack servers, but may be used by other applications (that run on
 Unix-like platforms)."
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_kgio_CONTENTS="${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_kgio_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
+
