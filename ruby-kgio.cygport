@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-kgio"
-VERSION=2.9.2
+VERSION=2.9.3
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby kgio extension"
