@@ -1,8 +1,8 @@
 inherit rubygem
 
 NAME="ruby-kgio"
-VERSION=2.9.3
-RELEASE=2
+VERSION=2.11.0
+RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby kgio extension"
 DESCRIPTION="kgio provides non-blocking I/O methods for Ruby without raising
